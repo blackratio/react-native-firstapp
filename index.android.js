@@ -28,7 +28,7 @@ function getMoviesFromApiAsync() {
   }
 
 const onButtonPress = () => {
-   Alert.alert('Button has been pressed!');
+   Alert.alert('HellYeah button has been pressed!');
 };
 
 export default class AwesomeProject extends Component {

@@ -16,6 +16,7 @@ import {
    Alert
 } from 'react-native';
 
+
 function getMoviesFromApiAsync() {
     return fetch('https://facebook.github.io/react-native/movies.json')
       .then((response) => response.json())
@@ -43,9 +44,9 @@ export default class AwesomeProject extends Component {
             <View style={styles.content}>
                <ScrollView>
                   <Button onPress={onButtonPress} title="Press Me" accessibilityLabel="See an informative alert"/>
-                  <Text style={{fontSize:96}}>Scroll me plz</Text>
-                  <Text style={{fontSize:96}}>Scroll me plz</Text>
-                  <Text style={{fontSize:96}}>Scroll me plz</Text>
+                  <Text style={{fontSize:60}}>Scroll me plz</Text>
+                  <Text style={{fontSize:60}}>Scroll me plz</Text>
+                  <Text style={{fontSize:60}}>Scroll me plz</Text>
                   <Text style={styles.awesome}>
                   Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta.
                   </Text>
